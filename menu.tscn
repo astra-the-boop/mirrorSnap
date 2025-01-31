@@ -1,0 +1,31 @@
+[gd_scene load_steps=4 format=3 uid="uid://dgy2qc1gpjtpu"]
+
+[ext_resource type="Script" path="res://menu.gd" id="1_ekx65"]
+[ext_resource type="Texture2D" uid="uid://de6vfvy8pyoot" path="res://mirrorsnap.png" id="1_gynra"]
+[ext_resource type="Texture2D" uid="uid://c2vv4cdkeigvu" path="res://start.png" id="2_0suje"]
+
+[node name="Menu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ekx65")
+
+[node name="Mirrorsnap" type="Sprite2D" parent="."]
+position = Vector2(700.5, 449.5)
+scale = Vector2(1.00071, 0.998889)
+texture = ExtResource("1_gynra")
+
+[node name="Start" type="Sprite2D" parent="."]
+position = Vector2(677, 694)
+scale = Vector2(0.241176, 0.217778)
+texture = ExtResource("2_0suje")
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 473.0
+offset_top = 599.0
+offset_right = 886.0
+offset_bottom = 792.0

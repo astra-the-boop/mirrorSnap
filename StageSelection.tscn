@@ -1,0 +1,52 @@
+[gd_scene load_steps=3 format=3 uid="uid://dmnue72jfg3xb"]
+
+[ext_resource type="Texture2D" uid="uid://b1uh4353hqk5o" path="res://level select.png" id="1_hicbt"]
+[ext_resource type="Script" path="res://stage_selection.gd" id="1_ixj6f"]
+
+[node name="StageSelection" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ixj6f")
+
+[node name="LevelSelect" type="Sprite2D" parent="."]
+position = Vector2(700, 451)
+texture = ExtResource("1_hicbt")
+
+[node name="lvl1" type="Button" parent="."]
+layout_mode = 0
+offset_left = 59.0
+offset_top = 441.0
+offset_right = 190.0
+offset_bottom = 653.0
+
+[node name="lvl2" type="Button" parent="."]
+layout_mode = 0
+offset_left = 379.0
+offset_top = 424.0
+offset_right = 510.0
+offset_bottom = 636.0
+
+[node name="lvl3" type="Button" parent="."]
+layout_mode = 0
+offset_left = 666.0
+offset_top = 407.0
+offset_right = 797.0
+offset_bottom = 619.0
+
+[node name="lvl4" type="Button" parent="."]
+layout_mode = 0
+offset_left = 963.0
+offset_top = 411.0
+offset_right = 1094.0
+offset_bottom = 623.0
+
+[node name="lvl5" type="Button" parent="."]
+layout_mode = 0
+offset_left = 1236.0
+offset_top = 401.0
+offset_right = 1367.0
+offset_bottom = 613.0

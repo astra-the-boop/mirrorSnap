@@ -1,0 +1,24 @@
+[gd_scene load_steps=3 format=3 uid="uid://dnbr8aik41534"]
+
+[ext_resource type="Script" path="res://thanksforplaying.gd" id="1_lugag"]
+[ext_resource type="Texture2D" uid="uid://cbostfdge4gtk" path="res://thanks.png" id="2_xmm4v"]
+
+[node name="Thanksforplaying" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_lugag")
+
+[node name="Thanks" type="Sprite2D" parent="."]
+position = Vector2(700, 451)
+texture = ExtResource("2_xmm4v")
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = -14.0
+offset_top = 696.0
+offset_right = 468.0
+offset_bottom = 911.0
